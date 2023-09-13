@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+
+
+
+}
+h1{
+     border: deepskyblue;
+    color: white;
+
+}
+@media only screen and (min-width: 375px )  {
+
+
+.dvi{
+    margin-left: 0;
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     position: sticky;
+     overflow: hidden;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+}
+@media only screen and (min-height: 667px )  {
+
+    .dvi{
+        margin-left: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: sticky;
+        overflow: hidden;
+        overflow: hidden;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+}
+
+
+
+
+.appm{
+      background-color: rgba(245, 245, 245, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   position: absolute;
+   width: 600px;
+    height: 80%;
+
+}
+.but{
+    background-color: #2b2bff;
+    color: white;
+    height: 30px;
+    width:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+@media only screen and (max-width:768px ){
+    .butin{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+         width: 90%;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 768px ) {
+    .appm{
+
+            height: 80%;
+           width: 80%;
+        padding: 15px;
+        font-family: "American Typewriter";
+    }
+
+}
+
+    .but:hover{
+    height: 30px;
+    width:70px;
+}
+.butin{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90%;
+    border-radius: 8%;
+
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
